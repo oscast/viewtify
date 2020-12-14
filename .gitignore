@@ -1,6 +1,6 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/swift,objective-c,xcode,cocoapods,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=swift,objective-c,xcode,cocoapods,macos
+# Created by https://www.toptal.com/developers/gitignore/api/swift,objective-c,macos,cocoapods,xcode
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift,objective-c,macos,cocoapods,xcode
 
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
@@ -176,4 +176,4 @@ Dependencies/
 !*.xcworkspace/contents.xcworkspacedata
 **/xcshareddata/WorkspaceSettings.xcsettings
 
-# End of https://www.toptal.com/developers/gitignore/api/swift,objective-c,xcode,cocoapods,macos
+# End of https://www.toptal.com/developers/gitignore/api/swift,objective-c,macos,cocoapods,xcode
