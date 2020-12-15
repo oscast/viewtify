@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2B8A38F2589372500BBCE27 /* ViewtifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A38E2589372500BBCE27 /* ViewtifyApp.swift */; };
+		F2B8A3912589372500BBCE27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A3902589372500BBCE27 /* ContentView.swift */; };
+		F2B8A3932589372600BBCE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B8A3922589372600BBCE27 /* Assets.xcassets */; };
+		F2B8A3962589372600BBCE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B8A3952589372600BBCE27 /* Preview Assets.xcassets */; };
+		F2B8A3A12589372600BBCE27 /* ViewtifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A3A02589372600BBCE27 /* ViewtifyTests.swift */; };
+		F2B8A3AC2589372600BBCE27 /* ViewtifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A3AB2589372600BBCE27 /* ViewtifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B8A39D2589372600BBCE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B8A3832589372500BBCE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B8A38A2589372500BBCE27;
+			remoteInfo = Viewtify;
+		};
+		F2B8A3A82589372600BBCE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B8A3832589372500BBCE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B8A38A2589372500BBCE27;
+			remoteInfo = Viewtify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2B8A38B2589372500BBCE27 /* Viewtify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viewtify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B8A38E2589372500BBCE27 /* ViewtifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewtifyApp.swift; sourceTree = "<group>"; };
+		F2B8A3902589372500BBCE27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2B8A3922589372600BBCE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B8A3952589372600BBCE27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2B8A3972589372600BBCE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B8A39C2589372600BBCE27 /* ViewtifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewtifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B8A3A02589372600BBCE27 /* ViewtifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewtifyTests.swift; sourceTree = "<group>"; };
+		F2B8A3A22589372600BBCE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B8A3A72589372600BBCE27 /* ViewtifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewtifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B8A3AB2589372600BBCE27 /* ViewtifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewtifyUITests.swift; sourceTree = "<group>"; };
+		F2B8A3AD2589372600BBCE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B8A3882589372500BBCE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8A3992589372600BBCE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8A3A42589372600BBCE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2B8A3822589372500BBCE27 = {
+			isa = PBXGroup;
+			children = (
+				F2B8A38D2589372500BBCE27 /* Viewtify */,
+				F2B8A39F2589372600BBCE27 /* ViewtifyTests */,
+				F2B8A3AA2589372600BBCE27 /* ViewtifyUITests */,
+				F2B8A38C2589372500BBCE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B8A38C2589372500BBCE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8A38B2589372500BBCE27 /* Viewtify.app */,
+				F2B8A39C2589372600BBCE27 /* ViewtifyTests.xctest */,
+				F2B8A3A72589372600BBCE27 /* ViewtifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B8A38D2589372500BBCE27 /* Viewtify */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8A38E2589372500BBCE27 /* ViewtifyApp.swift */,
+				F2B8A3902589372500BBCE27 /* ContentView.swift */,
+				F2B8A3922589372600BBCE27 /* Assets.xcassets */,
+				F2B8A3972589372600BBCE27 /* Info.plist */,
+				F2B8A3942589372600BBCE27 /* Preview Content */,
+			);
+			path = Viewtify;
+			sourceTree = "<group>";
+		};
+		F2B8A3942589372600BBCE27 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8A3952589372600BBCE27 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2B8A39F2589372600BBCE27 /* ViewtifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8A3A02589372600BBCE27 /* ViewtifyTests.swift */,
+				F2B8A3A22589372600BBCE27 /* Info.plist */,
+			);
+			path = ViewtifyTests;
+			sourceTree = "<group>";
+		};
+		F2B8A3AA2589372600BBCE27 /* ViewtifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B8A3AB2589372600BBCE27 /* ViewtifyUITests.swift */,
+				F2B8A3AD2589372600BBCE27 /* Info.plist */,
+			);
+			path = ViewtifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B8A38A2589372500BBCE27 /* Viewtify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B8A3B02589372600BBCE27 /* Build configuration list for PBXNativeTarget "Viewtify" */;
+			buildPhases = (
+				F2B8A3872589372500BBCE27 /* Sources */,
+				F2B8A3882589372500BBCE27 /* Frameworks */,
+				F2B8A3892589372500BBCE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viewtify;
+			productName = Viewtify;
+			productReference = F2B8A38B2589372500BBCE27 /* Viewtify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B8A39B2589372600BBCE27 /* ViewtifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B8A3B32589372600BBCE27 /* Build configuration list for PBXNativeTarget "ViewtifyTests" */;
+			buildPhases = (
+				F2B8A3982589372600BBCE27 /* Sources */,
+				F2B8A3992589372600BBCE27 /* Frameworks */,
+				F2B8A39A2589372600BBCE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B8A39E2589372600BBCE27 /* PBXTargetDependency */,
+			);
+			name = ViewtifyTests;
+			productName = ViewtifyTests;
+			productReference = F2B8A39C2589372600BBCE27 /* ViewtifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2B8A3A62589372600BBCE27 /* ViewtifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B8A3B62589372600BBCE27 /* Build configuration list for PBXNativeTarget "ViewtifyUITests" */;
+			buildPhases = (
+				F2B8A3A32589372600BBCE27 /* Sources */,
+				F2B8A3A42589372600BBCE27 /* Frameworks */,
+				F2B8A3A52589372600BBCE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B8A3A92589372600BBCE27 /* PBXTargetDependency */,
+			);
+			name = ViewtifyUITests;
+			productName = ViewtifyUITests;
+			productReference = F2B8A3A72589372600BBCE27 /* ViewtifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B8A3832589372500BBCE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					F2B8A38A2589372500BBCE27 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					F2B8A39B2589372600BBCE27 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = F2B8A38A2589372500BBCE27;
+					};
+					F2B8A3A62589372600BBCE27 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = F2B8A38A2589372500BBCE27;
+					};
+				};
+			};
+			buildConfigurationList = F2B8A3862589372500BBCE27 /* Build configuration list for PBXProject "Viewtify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B8A3822589372500BBCE27;
+			productRefGroup = F2B8A38C2589372500BBCE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B8A38A2589372500BBCE27 /* Viewtify */,
+				F2B8A39B2589372600BBCE27 /* ViewtifyTests */,
+				F2B8A3A62589372600BBCE27 /* ViewtifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B8A3892589372500BBCE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8A3962589372600BBCE27 /* Preview Assets.xcassets in Resources */,
+				F2B8A3932589372600BBCE27 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8A39A2589372600BBCE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8A3A52589372600BBCE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B8A3872589372500BBCE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8A3912589372500BBCE27 /* ContentView.swift in Sources */,
+				F2B8A38F2589372500BBCE27 /* ViewtifyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8A3982589372600BBCE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8A3A12589372600BBCE27 /* ViewtifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B8A3A32589372600BBCE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B8A3AC2589372600BBCE27 /* ViewtifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B8A39E2589372600BBCE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B8A38A2589372500BBCE27 /* Viewtify */;
+			targetProxy = F2B8A39D2589372600BBCE27 /* PBXContainerItemProxy */;
+		};
+		F2B8A3A92589372600BBCE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B8A38A2589372500BBCE27 /* Viewtify */;
+			targetProxy = F2B8A3A82589372600BBCE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2B8A3AE2589372600BBCE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B8A3AF2589372600BBCE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B8A3B12589372600BBCE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Viewtify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Viewtify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocast.Viewtify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B8A3B22589372600BBCE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Viewtify/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Viewtify/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocast.Viewtify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2B8A3B42589372600BBCE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewtifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocast.ViewtifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viewtify.app/Viewtify";
+			};
+			name = Debug;
+		};
+		F2B8A3B52589372600BBCE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewtifyTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocast.ViewtifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viewtify.app/Viewtify";
+			};
+			name = Release;
+		};
+		F2B8A3B72589372600BBCE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewtifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocast.ViewtifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Viewtify;
+			};
+			name = Debug;
+		};
+		F2B8A3B82589372600BBCE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ViewtifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ocast.ViewtifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Viewtify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B8A3862589372500BBCE27 /* Build configuration list for PBXProject "Viewtify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8A3AE2589372600BBCE27 /* Debug */,
+				F2B8A3AF2589372600BBCE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B8A3B02589372600BBCE27 /* Build configuration list for PBXNativeTarget "Viewtify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8A3B12589372600BBCE27 /* Debug */,
+				F2B8A3B22589372600BBCE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B8A3B32589372600BBCE27 /* Build configuration list for PBXNativeTarget "ViewtifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8A3B42589372600BBCE27 /* Debug */,
+				F2B8A3B52589372600BBCE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B8A3B62589372600BBCE27 /* Build configuration list for PBXNativeTarget "ViewtifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B8A3B72589372600BBCE27 /* Debug */,
+				F2B8A3B82589372600BBCE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B8A3832589372500BBCE27 /* Project object */;
+}
