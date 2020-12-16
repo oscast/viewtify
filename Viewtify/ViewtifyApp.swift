@@ -11,7 +11,7 @@ import SwiftUI
 struct ViewtifyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabbedView()
         }
     }
 }
