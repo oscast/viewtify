@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F22BB8F92593FB82006BCEDE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BB8F82593FB82006BCEDE /* CardView.swift */; };
 		F22BB90125941A37006BCEDE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BB90025941A37006BCEDE /* SearchBarView.swift */; };
+		F22BB9062596FEE1006BCEDE /* SearchSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BB9052596FEE1006BCEDE /* SearchSectionView.swift */; };
 		F244C213258AED9600017A5E /* DataRetriever.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244C212258AED9600017A5E /* DataRetriever.swift */; };
 		F244C218258B9FD900017A5E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244C217258B9FD900017A5E /* Color+Extensions.swift */; };
 		F244C220258BCEC600017A5E /* Screen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244C21F258BCEC600017A5E /* Screen+Extension.swift */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		F22BB8F82593FB82006BCEDE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		F22BB90025941A37006BCEDE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		F22BB9052596FEE1006BCEDE /* SearchSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSectionView.swift; sourceTree = "<group>"; };
 		F244C212258AED9600017A5E /* DataRetriever.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRetriever.swift; sourceTree = "<group>"; };
 		F244C217258B9FD900017A5E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		F244C21F258BCEC600017A5E /* Screen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screen+Extension.swift"; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				F26615AE258978E9009F0062 /* SearchView.swift */,
 				F22BB8F82593FB82006BCEDE /* CardView.swift */,
 				F22BB90025941A37006BCEDE /* SearchBarView.swift */,
+				F22BB9052596FEE1006BCEDE /* SearchSectionView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				F26615D72589D319009F0062 /* TabbedView.swift in Sources */,
 				F26615C62589CE1D009F0062 /* ViewtifyColors.swift in Sources */,
 				F26615AF258978E9009F0062 /* SearchView.swift in Sources */,
+				F22BB9062596FEE1006BCEDE /* SearchSectionView.swift in Sources */,
 				F2B8A38F2589372500BBCE27 /* ViewtifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
