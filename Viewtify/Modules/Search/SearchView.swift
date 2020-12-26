@@ -34,7 +34,7 @@ struct SearchView: View {
                 
                 LazyVStack(alignment: .leading, spacing: 27, pinnedViews: [.sectionHeaders], content: {
                     Section(header: SearchSectionView(text: $textfieldText)
-                                .padding(.bottom, -1), content: {
+                                .padding(.bottom, -17), content: {
                                     ForEach(sections, id: (\.self)) { section in
                                         MusicSectionGrid(section: section)
                                     }
