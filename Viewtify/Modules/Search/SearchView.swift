@@ -17,7 +17,6 @@ struct SearchView: View {
     init() {
         let tableViewAppearance = UITableView.appearance()
         tableViewAppearance.backgroundColor = backgroundColor
-        UITableViewCell.appearance().backgroundColor = .green
         UITableView.appearance().separatorStyle = .none
     }
     
@@ -25,19 +24,26 @@ struct SearchView: View {
         ZStack {
             Color(backgroundColor)
                 .ignoresSafeArea(.all)
-            List {
-                Text("Search")
-                    .font(.system(size: 35, weight: .bold, design: .default))
-                    .foregroundColor(.white)
-                    .listRowBackground(Color(backgroundColor))
-                ForEach(sections, id: (\.self)) { section in
-                    MusicSectionGrid(section: section)
-                        .listRowBackground(Color(backgroundColor))
-                        .background(Color(backgroundColor))
+            ScrollView {
+                HStack {
+                    Text("Search")
+                        .font(.system(size: 35, weight: .bold, design: .default))
+                        .foregroundColor(.white)
+                    Spacer()
                 }
-                .padding(.bottom)
+                
+                LazyVStack(alignment: .leading, spacing: 27, pinnedViews: [.sectionHeaders], content: {
+                    Section(header: SearchBarView(text: $textfieldText)
+                                .padding(.bottom, -1), content: {
+                                    ForEach(sections, id: (\.self)) { section in
+                                        MusicSectionGrid(section: section)
+                                    }
+                                } )
+                })
+                .padding(.horizontal, 16)
             }
             .padding(.top, 8)
+            .padding(.bottom, 16)
         }
     }
 }
@@ -50,7 +56,7 @@ struct SearchView_Previews: PreviewProvider {
 
 
 struct MusicSectionGrid: View {
-
+    
     static var cellApectRatio: CGFloat {
         ((( UIScreen.width / 2) - 32.0) * 0.5683)
     }
@@ -59,15 +65,14 @@ struct MusicSectionGrid: View {
     let section: SearchSection
     
     var body: some View {
-        VStack {
+        LazyVStack(spacing: 27) {
             HStack {
                 Text(section.title)
                     .foregroundColor(.white)
                     .font(.system(size: 17, weight: .bold, design: .default))
                 Spacer()
             }
-            .padding(.bottom, 24)
-            LazyVGrid(columns: columns, spacing: 16) {
+            LazyVGrid(columns: columns, spacing: 15) {
                 ForEach(section.genres, id: \.self) { (genre: MusicGenre) in
                     ZStack {
                         LinearGradient(gradient: Gradient(colors: [Color(genre.firstColor),
@@ -75,21 +80,12 @@ struct MusicSectionGrid: View {
                                        startPoint: .top, endPoint: .bottom)
                             .cornerRadius(5)
                             .frame(height: MusicSectionGrid.cellApectRatio)
-                        
-                        HStack {
-                            VStack {
-                                Text(genre.name)
-                                    .foregroundColor(.white)
-                                    .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 8))
-                                    .font(.system(size: 16, weight: .bold, design: .default))
-                                Spacer()
-                            }
-                            .padding(.leading)
-                            Spacer()
-                        }
+                        CardView(cardText: genre.name)
                     }
                 }
             }
+            // End LazyVGrid
         }
+        // End Vertical Stack
     }
 }
