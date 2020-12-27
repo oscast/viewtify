@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CardView: View {
+struct CardViewText: View {
     
     let cardText: String
     
@@ -16,8 +16,8 @@ struct CardView: View {
             VStack {
                 Text(cardText)
                     .foregroundColor(.white)
-                    .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 8))
                     .font(.system(size: 16, weight: .bold, design: .default))
+                    .padding(EdgeInsets(top: 8, leading: 0, bottom: 0, trailing: 8))
                 Spacer()
             }
             .padding(.leading)
@@ -28,6 +28,10 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(cardText: "Test")
+        ZStack {
+            Color(.black)
+                .edgesIgnoringSafeArea(.all)
+            CardViewText(cardText: "Test")
+        }
     }
 }

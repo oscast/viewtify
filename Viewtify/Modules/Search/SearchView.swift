@@ -68,8 +68,7 @@ struct MusicSectionGrid: View {
         LazyVStack(spacing: 27) {
             HStack {
                 Text(section.title)
-                    .foregroundColor(.white)
-                    .font(.system(size: 17, weight: .bold, design: .default))
+                    .SearchGenresTitleStyle()
                 Spacer()
             }
             LazyVGrid(columns: columns, spacing: 15) {
@@ -80,7 +79,7 @@ struct MusicSectionGrid: View {
                                        startPoint: .top, endPoint: .bottom)
                             .cornerRadius(5)
                             .frame(height: MusicSectionGrid.cellApectRatio)
-                        CardView(cardText: genre.name)
+                        CardViewText(cardText: genre.name)
                     }
                 }
             }
