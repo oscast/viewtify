@@ -14,6 +14,11 @@ struct TabbedView: View {
     
     var body: some View {
         TabView {
+            HomeView()
+                .tabItem {
+                    SystemImage(.home)
+                    Text("Home")
+                }
             SearchView()
                 .tabItem {
                     SystemImage(.search)

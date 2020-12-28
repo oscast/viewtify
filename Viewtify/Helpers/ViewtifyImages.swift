@@ -9,6 +9,7 @@ import UIKit
 
 enum SystemIcons: String {
     case search = "magnifyingglass"
+    case home = "house.fill"
     
     func make() -> UIImage {
         UIImage(systemName: self.rawValue) ?? UIImage()
