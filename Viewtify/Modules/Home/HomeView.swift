@@ -9,8 +9,6 @@ import SwiftUI
 
 struct HomeView: View {
     
-    let columns = [GridItem(.flexible()), GridItem(.flexible())]
-    
     var body: some View {
         ZStack {
             SpotifyColors.mainBackground
@@ -25,15 +23,9 @@ struct HomeView: View {
                 Spacer()
             }
             ScrollView {
-                HStack {
-                    Text("Hello")
-                        .foregroundColor(.white)
-                    Spacer()
-                }
-                LazyVGrid(columns: columns, spacing: 8) {
-                    ForEach(0 ..< 4) { number in
-                        GreeetingsCardView(cardText: "test")
-                    }
+                VStack(spacing: 51) {
+                    GreetingsView()
+                        .padding(.bottom, -18)
                 }
             }
             .padding()
