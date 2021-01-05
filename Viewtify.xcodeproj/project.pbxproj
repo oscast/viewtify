@@ -17,7 +17,7 @@
 		F244C218258B9FD900017A5E /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244C217258B9FD900017A5E /* Color+Extensions.swift */; };
 		F244C220258BCEC600017A5E /* Screen+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F244C21F258BCEC600017A5E /* Screen+Extension.swift */; };
 		F26615AF258978E9009F0062 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26615AE258978E9009F0062 /* SearchView.swift */; };
-		F26615C62589CE1D009F0062 /* ViewtifyColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26615C52589CE1D009F0062 /* ViewtifyColors.swift */; };
+		F26615C62589CE1D009F0062 /* ColorPallete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26615C52589CE1D009F0062 /* ColorPallete.swift */; };
 		F26615D12589D196009F0062 /* ViewtifyImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26615D02589D196009F0062 /* ViewtifyImages.swift */; };
 		F26615D72589D319009F0062 /* TabbedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26615D62589D319009F0062 /* TabbedView.swift */; };
 		F2B8A38F2589372500BBCE27 /* ViewtifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A38E2589372500BBCE27 /* ViewtifyApp.swift */; };
@@ -25,6 +25,7 @@
 		F2B8A3962589372600BBCE27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B8A3952589372600BBCE27 /* Preview Assets.xcassets */; };
 		F2B8A3A12589372600BBCE27 /* ViewtifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A3A02589372600BBCE27 /* ViewtifyTests.swift */; };
 		F2B8A3AC2589372600BBCE27 /* ViewtifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B8A3AB2589372600BBCE27 /* ViewtifyUITests.swift */; };
+		F2CE4DD5259A9803004F9580 /* GreeetingsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CE4DD4259A9803004F9580 /* GreeetingsCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +56,7 @@
 		F244C217258B9FD900017A5E /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		F244C21F258BCEC600017A5E /* Screen+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screen+Extension.swift"; sourceTree = "<group>"; };
 		F26615AE258978E9009F0062 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
-		F26615C52589CE1D009F0062 /* ViewtifyColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewtifyColors.swift; sourceTree = "<group>"; };
+		F26615C52589CE1D009F0062 /* ColorPallete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPallete.swift; sourceTree = "<group>"; };
 		F26615D02589D196009F0062 /* ViewtifyImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewtifyImages.swift; sourceTree = "<group>"; };
 		F26615D62589D319009F0062 /* TabbedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedView.swift; sourceTree = "<group>"; };
 		F2B8A38B2589372500BBCE27 /* Viewtify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viewtify.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +70,7 @@
 		F2B8A3A72589372600BBCE27 /* ViewtifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewtifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B8A3AB2589372600BBCE27 /* ViewtifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewtifyUITests.swift; sourceTree = "<group>"; };
 		F2B8A3AD2589372600BBCE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CE4DD4259A9803004F9580 /* GreeetingsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreeetingsCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				F22BB91E25982DC7006BCEDE /* HomeView.swift */,
+				F2CE4DD4259A9803004F9580 /* GreeetingsCardView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -129,7 +132,7 @@
 		F26615C42589CDE3009F0062 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				F26615C52589CE1D009F0062 /* ViewtifyColors.swift */,
+				F26615C52589CE1D009F0062 /* ColorPallete.swift */,
 				F26615D02589D196009F0062 /* ViewtifyImages.swift */,
 				F244C212258AED9600017A5E /* DataRetriever.swift */,
 				F244C217258B9FD900017A5E /* Color+Extensions.swift */,
@@ -338,6 +341,7 @@
 				F22BB90125941A37006BCEDE /* SearchBarView.swift in Sources */,
 				F22BB91F25982DC7006BCEDE /* HomeView.swift in Sources */,
 				F244C213258AED9600017A5E /* DataRetriever.swift in Sources */,
+				F2CE4DD5259A9803004F9580 /* GreeetingsCardView.swift in Sources */,
 				F22BB8F92593FB82006BCEDE /* CardViewText.swift in Sources */,
 				F244C220258BCEC600017A5E /* Screen+Extension.swift in Sources */,
 				F244C218258B9FD900017A5E /* Color+Extensions.swift in Sources */,
@@ -345,7 +349,7 @@
 				F26615D12589D196009F0062 /* ViewtifyImages.swift in Sources */,
 				F26615D72589D319009F0062 /* TabbedView.swift in Sources */,
 				F22BB913259823AC006BCEDE /* MusicSectionGridView.swift in Sources */,
-				F26615C62589CE1D009F0062 /* ViewtifyColors.swift in Sources */,
+				F26615C62589CE1D009F0062 /* ColorPallete.swift in Sources */,
 				F26615AF258978E9009F0062 /* SearchView.swift in Sources */,
 				F22BB9062596FEE1006BCEDE /* SearchSectionView.swift in Sources */,
 				F2B8A38F2589372500BBCE27 /* ViewtifyApp.swift in Sources */,

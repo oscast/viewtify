@@ -12,8 +12,7 @@ extension Color {
     static let redLow = Color("redLow")
 }
 
-extension Color {
-    static func makeColor(color: String) -> Color {
-        Color(color)
-    }
+struct SpotifyColors {
+    static let homeCardGray = Color("homeCardGray")
+    static let mainBackground = Color("mainBackground")
 }

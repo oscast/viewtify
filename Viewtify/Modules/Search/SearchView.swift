@@ -10,15 +10,9 @@ import SwiftUI
 
 struct SearchView: View {
     
-    let backgroundColor = ViewtifyColors.Backgrounds.mainBackground.make()
+    let backgroundColor = ColorPallete.Backgrounds.mainBackground.make()
     @State var textfieldText = ""
     let sections = DataRetriever.getSearchData()
-    
-    init() {
-        let tableViewAppearance = UITableView.appearance()
-        tableViewAppearance.backgroundColor = backgroundColor
-        UITableView.appearance().separatorStyle = .none
-    }
     
     var body: some View {
         ZStack {

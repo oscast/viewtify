@@ -11,15 +11,20 @@ protocol ColorMakerType {
     func make() -> UIColor
 }
 
-enum ViewtifyColors {
+enum ColorPallete {
     enum Backgrounds: String, ColorMakerType {
         
         case tabBarBackground
         case mainBackground
+        case homeCardGray
         
         func make() -> UIColor {
             UIColor(named: self.rawValue) ?? UIColor()
         }
+    }
+    
+    enum Home {
+        
     }
 }
 
