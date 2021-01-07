@@ -21,8 +21,8 @@ struct GreetingsView: View {
                 Spacer()
             }
             LazyVGrid(columns: columns, spacing: 8) {
-                ForEach(0 ..< 4) { number in
-                    GreeetingsCardView(cardText: "test")
+                ForEach(0 ..< 6) { number in
+                    GreeetingsCardView()
                 }
             }
         }

@@ -20,5 +20,3 @@ extension View {
         self.modifier(SearchGenresSectionTitle())
     }
 }
-
-

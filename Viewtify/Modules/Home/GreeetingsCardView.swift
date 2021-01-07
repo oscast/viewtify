@@ -9,7 +9,6 @@ import SwiftUI
 
 struct GreeetingsCardView: View {
     
-    let cardText: String
     let cardColor = SpotifyColors.homeCardGray
     static var cellApectRatio: CGFloat {
         ((( UIScreen.width / 2) - 16.0) * 0.29946524)
@@ -21,9 +20,16 @@ struct GreeetingsCardView: View {
                 Image("luke-chesser")
                     .resizable()
                     .frame(width: GreeetingsCardView.cellApectRatio, height: GreeetingsCardView.cellApectRatio)
-                Text(cardText)
-                    .foregroundColor(.white)
-                    .font(.system(size: 11, weight: .bold, design: .default))
+                VStack(alignment: .leading) {
+                    Text("Music Name")
+                        .foregroundColor(.white)
+                        .font(.system(size: 11, weight: .bold, design: .default))
+                        .lineLimit(1)
+                    Text("Artist")
+                        .foregroundColor(.white)
+                        .font(.system(size: 11, weight: .bold, design: .default))
+                        .lineLimit(1)
+                }
                 Spacer()
             })
         }
@@ -37,7 +43,7 @@ struct GreeetingsCard_Previews: PreviewProvider {
         ZStack {
             Color(.black)
                 .ignoresSafeArea()
-            GreeetingsCardView(cardText: "Music Test")
+            GreeetingsCardView()
                 .frame(width: ((( UIScreen.width / 2) - 16.0)), height: GreeetingsCardView.cellApectRatio, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
         }
     }

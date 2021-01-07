@@ -23,9 +23,12 @@ struct HomeView: View {
                 Spacer()
             }
             ScrollView {
-                VStack(spacing: 51) {
+                LazyVStack(spacing: 51) {
                     GreetingsView()
                         .padding(.bottom, -18)
+                    AlbumSectionView()
+                    AlbumSectionView()
+                    AlbumSectionView()
                 }
             }
             .padding()
