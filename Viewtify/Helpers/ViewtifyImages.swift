@@ -15,3 +15,8 @@ enum SystemIcons: String {
         UIImage(systemName: self.rawValue) ?? UIImage()
     }
 }
+
+enum HomeIcons: String {
+    case settings
+    case home
+}

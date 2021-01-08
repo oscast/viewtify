@@ -16,7 +16,7 @@ struct TabbedView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    SystemImage(.home)
+                    HomeImage(.home)
                     Text("Home")
                 }
             SearchView()
@@ -45,5 +45,17 @@ struct SystemImage: View {
     
     var body: some View {
         Image(systemName: systemIcon.rawValue)
+    }
+}
+
+struct HomeImage: View {
+    let icon: HomeIcons
+    
+    init(_ icon: HomeIcons) {
+        self.icon = icon
+    }
+    
+    var body: some View {
+        Image(icon.rawValue)
     }
 }
