@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TotalScrollView<Content: View>: View {
+struct ScrollviewPlus<Content: View>: View {
     let axes: Axis.Set
     let onOffsetChange: (CGFloat) -> Void
     let content: () -> Content

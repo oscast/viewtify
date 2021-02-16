@@ -17,13 +17,13 @@ struct HomeView: View {
                 .ignoresSafeArea()
             
             GeometryReader { geometry in
-                TotalScrollView(axes: [.vertical], onOffsetChange: { offset in
+                ScrollviewPlus(axes: [.vertical], onOffsetChange: { offset in
                     let geometryHeight = geometry.size.height
                     
                     settingsAlpha = (Double((geometryHeight / 2.5 ) + offset)) / 100
                     print(settingsAlpha)
                 }, content: {
-                    LazyVStack(spacing: 51) {
+                    VStack(spacing: 51) {
                         GreetingsView()
                             .padding(.bottom, -18)
                         AlbumSectionView()

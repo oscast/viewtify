@@ -17,7 +17,7 @@ struct AlbumSectionView: View {
                 .foregroundColor(.white)
                 .font(.system(size: 20.7, weight: .bold, design: .default))
             ScrollView(.horizontal) {
-                LazyHStack(alignment: .top, spacing: 16) {
+                HStack(alignment: .top, spacing: 16) {
                     AlbumView()
                         .frame(width: 124, height: 145)
                     AlbumView()

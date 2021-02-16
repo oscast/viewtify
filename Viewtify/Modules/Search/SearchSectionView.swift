@@ -14,8 +14,6 @@ struct SearchSectionView: View {
     var body: some View {
         VStack(spacing: 0) {
             SearchBarView(text: $text)
-            Color(ColorPallete.Backgrounds.mainBackground.make())
-                .frame(height: 16)
         }
     }
 }
